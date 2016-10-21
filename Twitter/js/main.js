@@ -9,6 +9,8 @@ function añadir()
             li.id=opciones;
             li.innerHTML='<input type ="checkbox" onclick="tachar(this)">' + opciones+'<span onclick="eliminar(this)" class="glyphicon glyphicon-trash"></span>';
             document.getElementById("listaDesordenada").appendChild(li);
+            document.getElementById("opciones").value= "";
+            document.getElementById("opciones").setAttribute("placeholder", "Añade tu nueva tarea");
 
         }
     }else if( opciones == ""){
