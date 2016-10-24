@@ -3,20 +3,48 @@
     text-align: center;
 }
 
-textarea{
+input{
     margin-top: 5%;
+    margin-bottom: 2%;
 
 }
-button{
-    margin-top: 1%;
-    margin-left: 1%;
+.tarjetas{
+	background-color: #7FB3D5;
+	color: black;
+	
+	text-align: center;
+	
 }
+.tarjetas1{
+	background-color: black;
+	color: black;
+	border-radius: 5px;
+	width: 50%;
+	text-align: center;
+	
+}
+.cursor{
+	cursor:pointer; 
+	cursor: hand;
+	color: white;
+}
+
+
+fieldset{
+	width: 20%;
+	margin-top: 1%;
+	background-color: #7FB3D5;
+	display: inline-block;
+
+}
+
+.fondo{
+	background-color: #34495E;
+}
+
 li{
     margin-top: 2%;
-    background-color: #D7DBDD;
+    background-color: white;
+    text-decoration: none;
     
-}
-li span {
-    margin-left: 90%;
-
 }
