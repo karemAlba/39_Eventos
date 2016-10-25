@@ -2,39 +2,47 @@
     background-color: #D7DBDD;
     text-align: center;
 }
+.espacio{
+	margin-bottom: 2%;
+}
 
+.lista{
+	background-color: white;
+	color:black;
+}
 input{
     margin-top: 5%;
     margin-bottom: 2%;
+}
 
+.campo{
+	background-color: white;
+	border: 1px solid #000000;
+	scrollbar-arrow-color: #000066;
+	scrollbar-base-color: #000033;
+	scrollbar-dark-shadow-color: #336699;
+	scrollbar-track-color: #666633;
+	scrollbar-face-color: #cc9933;
+	scrollbar-shadow-color: #DDDDDD;
+	scrollbar-highlight-color: #CCCCCC;
+	
+}
+.contenedor {
+	background-color: #7FB3D5;
+	color: black;
+	margin: 10px;
+	text-align: center;
+	display: inline-block;
+	width: 20%;	
+	border-radius: 5px;
 }
 .tarjetas{
 	background-color: #7FB3D5;
-	color: black;
-	
-	text-align: center;
-	
-}
-.tarjetas1{
-	background-color: black;
-	color: black;
-	border-radius: 5px;
-	width: 50%;
-	text-align: center;
-	
-}
-.cursor{
-	cursor:pointer; 
-	cursor: hand;
-	color: white;
-}
-
-
-fieldset{
-	width: 20%;
-	margin-top: 1%;
-	background-color: #7FB3D5;
 	display: inline-block;
+	width: 20%;
+	text-align: center;
+	margin-top: .7%;
+	margin-right: 1%;
 
 }
 
@@ -44,7 +52,7 @@ fieldset{
 
 li{
     margin-top: 2%;
-    background-color: white;
     text-decoration: none;
     
 }
+
